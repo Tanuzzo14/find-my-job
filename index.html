@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <title>Tabellone Partenze — Radar Pre-Sales & Tech Sales</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Un unico tabellone per monitorare le posizioni entry-level in ambito Pre-Sales, Tech Sales e IT Consulting nelle Big Tech, senza aprire dieci schede." />
+  <meta name="description" content="Un unico tabellone per monitorare le posizioni entry-level in ambito Pre-Sales, Tech Sales e IT Consulting nelle Big Tech." />
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,11 +14,21 @@
 <body>
   <div class="scanlines" aria-hidden="true"></div>
 
+  <nav class="nav-bar">
+    <div class="nav-bar__inner">
+      <span class="nav-bar__brand">SYS // CAREER CONTROL BOARD</span>
+      <div class="nav-bar__links">
+        <a href="index.html" class="nav-link nav-link--active">Tabellone Partenze</a>
+        <a href="cv-matcher.html" class="nav-link nav-link--highlight">⚡ CV Matcher & ATS Tailor</a>
+      </div>
+    </div>
+  </nav>
+
   <header class="board-header">
     <div class="board-header__eyebrow">CAREER CONTROL BOARD</div>
     <h1 class="board-header__title" id="flap-title"></h1>
     <p class="board-header__subtitle">
-      Le posizioni entry-level in Pre-Sales, Tech Sales e IT Consulting nelle Big Tech, su un unico tabellone —
+      Le posizioni entry-level in Pre-Sales, Tech Sales e IT Consulting nelle Big Tech e su LinkedIn su un unico tabellone —
       <span id="last-updated">caricamento…</span>.
     </p>
   </header>
@@ -38,8 +48,7 @@
     <section class="radar" aria-label="Amplia la ricerca">
       <h2>Amplia il raggio del radar</h2>
       <p>
-        Ruoli pre-sales / tech sales entry-level che forse non avevi considerato ancora. Scegline uno per filtrare al volo
-        le posizioni live qui sopra, oppure lancia una ricerca su tutte e 7 le aziende insieme.
+        Ruoli pre-sales / tech sales entry-level. Scegline uno per filtrare al volo le posizioni live oppure lancia una ricerca su tutte le piattaforme.
       </p>
       <div class="chips" id="keyword-chips"></div>
       <form id="radar-form" class="radar-form">
@@ -51,9 +60,7 @@
 
   <footer class="board-footer">
     <p>
-      Board statica ospitata su GitHub Pages. Le righe <strong>Google</strong> e <strong>Netflix</strong> mostrano posizioni
-      reali aggiornate ogni giorno da una GitHub Action; le altre aziende non espongono dati pubblicamente utilizzabili da un
-      sito statico, quindi il gate apre la ricerca diretta con tutti i filtri già impostati.
+      Board statica ospitata su GitHub Pages. Monitoraggio integrato per LinkedIn, Google, Netflix, IBM, Meta, Microsoft, Amazon ed eBay.
     </p>
   </footer>
 

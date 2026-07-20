@@ -77,6 +77,7 @@ const COMPANIES = [
   },
 ];
 
+// Titoli distinti mantenuti intenzionalmente perché i career site usano naming diversi per ruoli molto simili.
 const KEYWORDS = [
   "Solutions Consultant",
   "Solution Engineer",
@@ -102,6 +103,8 @@ const KEYWORDS = [
   "Business Analyst",
   "Revenue Operations Analyst",
 ];
+
+const DEFAULT_KEYWORDS = ["Technical Sales", "Pre-Sales", "Consulting", "Business Support"];
 
 const TARGET_ROLE_TERMS = [
   "pre-sales",

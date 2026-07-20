@@ -60,7 +60,7 @@ function renderBoard() {
         ${
           company.live
             ? `<span class="status status--live"><i class="status-dot"></i>LIVE</span>`
-            : `<span class="status status--direct">SHORTLIST</span>`
+            : `<span class="status status--shortlist">SHORTLIST</span>`
         }
       </span>
       <span class="col col--gate">
@@ -171,7 +171,7 @@ function renderCompanyJobs(companyId) {
                   ${job.keywords.slice(0, 4).map((keyword) => `<span class="tag">${escapeHtml(keyword)}</span>`).join("")}
                 </div>
               </div>
-              <span class="status ${job.sourceType === "live" ? "status--live" : "status--direct"}">${job.sourceType === "live" ? "LIVE" : "SHORTLIST"}</span>
+              <span class="status ${job.sourceType === "live" ? "status--live" : "status--shortlist"}">${job.sourceType === "live" ? "LIVE" : "SHORTLIST"}</span>
             </li>
           `
         )
@@ -231,7 +231,7 @@ function dedupeJobs(jobs) {
 function extractKeywords(title) {
   const lowerTitle = String(title || "").toLowerCase();
   const matches = ORDERED_KEYWORDS.filter((keyword) => lowerTitle.includes(keyword.toLowerCase()));
-  return matches.length ? matches : ["Technical Sales", "Pre-Sales", "Consulting", "Business Support"];
+  return matches.length ? matches : DEFAULT_KEYWORDS;
 }
 
 function inferExperience(title) {

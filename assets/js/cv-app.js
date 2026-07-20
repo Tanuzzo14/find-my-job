@@ -1,5 +1,5 @@
 const JOBS_DATA_URL = "data/jobs.json";
-// Sotto questa soglia trattiamo il primo blocco come profilo iniziale da sostituire.
+// 900 caratteri coprono un tipico blocco iniziale di profilo/sommario senza invadere sezioni più lunghe come esperienze o progetti.
 const MAX_INTRO_BLOCK_LENGTH = 900;
 const MAX_FILENAME_SEGMENT_LENGTH = 48;
 const ORDERED_KEYWORDS = [...KEYWORDS].sort((left, right) => right.length - left.length);
@@ -75,7 +75,7 @@ async function handleFileSelect() {
 
   const extension = getFileExtension(file.name);
   if (!["txt", "md"].includes(extension)) {
-    showStatus("Per mantenere tutto 100% client-side senza dipendenze esterne, carica un file .txt/.md oppure incolla il testo del CV qui sotto.", "warning");
+    showStatus("Formato non supportato. Carica un file .txt/.md o incolla il testo del CV.", "warning");
     fileInput.value = "";
     return;
   }
@@ -250,17 +250,22 @@ function openTailorModal(job) {
 }
 
 function buildTailoredCV(originalCv, job) {
-  const tailoredIntro = buildTailoredIntro(job);
+  const originalIntro = extractFirstBlock(originalCv);
+  const tailoredIntro = buildTailoredIntro(job, originalIntro);
   return replaceIntroBlock(originalCv, tailoredIntro);
 }
 
-function buildTailoredIntro(job) {
+function buildTailoredIntro(job, originalIntro) {
   const keywordsList = job.keywords.join(", ");
+  const toneBridge = originalIntro ? "Mantengo il tono del profilo originale valorizzando le competenze più rilevanti per il ruolo." : "";
   return [
     `Profilo professionale orientato a ${job.title} con focus su ${job.companyName}.`,
     `Background in ambito pre-sales, business support e consulenza IT con attenzione a ${keywordsList}.`,
     `Disponibilità a contribuire su attività customer-facing, discovery, supporto tecnico e coordinamento con stakeholder mantenendo un taglio entry level / 0-3 anni.`,
-  ].join(" ");
+    toneBridge,
+  ]
+    .filter(Boolean)
+    .join(" ");
 }
 
 function replaceIntroBlock(originalCv, tailoredIntro) {
@@ -270,12 +275,23 @@ function replaceIntroBlock(originalCv, tailoredIntro) {
   const blocks = normalized.split(/\n\s*\n/);
   if (!blocks.length) return tailoredIntro;
 
-  if (blocks[0].length <= MAX_INTRO_BLOCK_LENGTH) {
+  if (isLikelyIntroBlock(blocks[0])) {
     blocks[0] = tailoredIntro;
     return blocks.join("\n\n");
   }
 
   return `${tailoredIntro}\n\n${normalized}`;
+}
+
+function isLikelyIntroBlock(block) {
+  const trimmed = String(block || "").trim();
+  const firstLine = trimmed.split("\n")[0].toLowerCase();
+  if (/^(profilo|summary|about|introduzione|profile)/.test(firstLine)) return true;
+  return trimmed.length <= MAX_INTRO_BLOCK_LENGTH && trimmed.split(/\n+/).length <= 6;
+}
+
+function extractFirstBlock(text) {
+  return String(text || "").replace(/\r\n/g, "\n").trim().split(/\n\s*\n/)[0] || "";
 }
 
 function buildCoverLetter(job) {
@@ -367,7 +383,7 @@ function buildHaystack(job) {
 function extractKeywords(title) {
   const lowerTitle = String(title || "").toLowerCase();
   const matches = ORDERED_KEYWORDS.filter((keyword) => lowerTitle.includes(keyword.toLowerCase()));
-  return matches.length ? matches : ["Technical Sales", "Pre-Sales", "Consulting", "Business Support"];
+  return matches.length ? matches : DEFAULT_KEYWORDS;
 }
 
 function inferExperience(title) {

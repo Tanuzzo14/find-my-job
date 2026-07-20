@@ -1,0 +1,33 @@
+name: Aggiorna offerte di lavoro
+
+on:
+  schedule:
+    # Ogni giorno alle 06:00 UTC (08:00 in Italia con ora legale)
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Scarica le posizioni aperte
+        run: node scripts/fetch-jobs.mjs
+
+      - name: Commit se ci sono cambiamenti
+        run: |
+          git config user.name "career-board-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.json
+          git diff --staged --quiet || git commit -m "chore: aggiorna offerte di lavoro"
+          git push

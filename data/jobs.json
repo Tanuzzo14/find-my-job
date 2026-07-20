@@ -1,4 +1,156 @@
 {
-  "generated_at": null,
-  "sources": {}
+  "generated_at": "2026-07-20T09:57:13.291Z",
+  "sources": {
+    "netflix": {
+      "ok": true,
+      "count": 0,
+      "jobs": []
+    },
+    "google": {
+      "ok": true,
+      "count": 20,
+      "jobs": [
+        {
+          "title": "Forward Deployed Engineer Ii Gcc French German",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/106128536711897798-forward-deployed-engineer-ii-gcc-french-german",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Midmarket Sales Google Customer Solutions German Market",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/90693674085556934-account-strategist-midmarket-sales-google-customer-solutions-german-market",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Smb Sales Google Customer Solutions Belgian Market Dutch English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/84201955571704518-account-strategist-smb-sales-google-customer-solutions-belgian-market-dutch-english",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Sales Uki",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/109013365312889542-account-executive-new-business-sales-uki",
+          "updated": null
+        },
+        {
+          "title": "Scaled Customer Engineer Smb Artificial Intelligence",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/119644601223914182-scaled-customer-engineer-smb-artificial-intelligence",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Italy English Italian",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/87496530495185606-account-strategist-sbs-engage-google-customer-solutions-italy-english-italian",
+          "updated": null
+        },
+        {
+          "title": "Account Executive Emea Apps New Business English German",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/102312066353636038-account-executive-emea-apps-new-business-english-german",
+          "updated": null
+        },
+        {
+          "title": "Business Development Manager",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/143346305232446150-business-development-manager",
+          "updated": null
+        },
+        {
+          "title": "Data And Measurement Account Manager Iberia And Italy",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/135548829687521990-data-and-measurement-account-manager-iberia-and-italy",
+          "updated": null
+        },
+        {
+          "title": "Digital Activation Specialist People With Disabilities",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/136518425970123462-digital-activation-specialist-people-with-disabilities",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Accelerated Growth Team Gcs Spain English Spanish",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/91769558024495814-accelerated-growth-consultant-accelerated-growth-team-gcs-spain-english-spanish",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Mms Google Customer Solutions Mena Arabic English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/110712258954175174-account-strategist-mms-google-customer-solutions-mena-arabic-english",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Sales French English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/100058887855448774-account-executive-new-business-sales-french-english",
+          "updated": null
+        },
+        {
+          "title": "Stock Administration Analyst",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/118527609079243462-stock-administration-analyst",
+          "updated": null
+        },
+        {
+          "title": "Data And Measurement Specialist People With Disabilities",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/80724412793266886-data-and-measurement-specialist-people-with-disabilities",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions English Polish",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/129057683478061766-account-strategist-sbs-engage-google-customer-solutions-english-polish",
+          "updated": null
+        },
+        {
+          "title": "Account Executive Emea Apps New Business English Hebrew",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/94183304948785862-account-executive-emea-apps-new-business-english-hebrew",
+          "updated": null
+        },
+        {
+          "title": "Global Business Solutions Crossborder Operations Consultant",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/112704791993295558-global-business-solutions-crossborder-operations-consultant",
+          "updated": null
+        },
+        {
+          "title": "Smb Account Manager Gemini Enterprise And Google Workspace",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/73322158092100294-smb-account-manager-gemini-enterprise-and-google-workspace",
+          "updated": null
+        },
+        {
+          "title": "Customer Growth Associate Early Careers Google Customer Solutions Dutch Market",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/141416670546535110-customer-growth-associate-early-careers-google-customer-solutions-dutch-market",
+          "updated": null
+        }
+      ]
+    }
+  }
 }

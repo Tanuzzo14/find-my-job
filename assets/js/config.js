@@ -1,17 +1,21 @@
 /**
  * config.js
  * -----------------------------------------------------------------------
- * Tutti i dati "editabili" del tabellone vivono qui: le 7 aziende con il
- * link di ricerca già filtrato, e la lista di parole chiave pre-sales /
- * tech sales entry-level da usare nel radar di ricerca incrociata.
- *
- * Per aggiungere un'azienda: copia un oggetto in COMPANIES e cambia i
- * campi. Per aggiungere parole chiave: aggiungi una stringa a KEYWORDS.
- * Nessun'altra parte del sito va toccata.
+ * Configurazione centrale per il tabellone ed il sistema di ATS matching.
+ * Incluso il link LinkedIn con filtri specifici per aziende target.
  * -----------------------------------------------------------------------
  */
 
 const COMPANIES = [
+  {
+    id: "linkedin",
+    code: "LNK",
+    name: "LinkedIn",
+    color: "#0A66C2",
+    filters: "Tech & Sales · Filtro Aziende Target (IBM, MSFT, Meta, ecc.)",
+    url: "https://www.linkedin.com/jobs/search-results/?currentJobId=4432596170&keywords=jobs&origin=JOB_SEARCH_PAGE_JOB_FILTER&start=25&geoId=105178154&distance=99.41936&f_C=2587638%2C39939%2C1337%2C2561065",
+    live: false,
+  },
   {
     id: "ibm",
     code: "IBM",
@@ -77,9 +81,6 @@ const COMPANIES = [
   },
 ];
 
-// Parole chiave pre-sales / tech sales / IT consulting entry-level,
-// incluse quelle richieste esplicitamente più altre affini che vale la
-// pena provare (Solutions Consultant, Business Support Engineer, ecc.)
 const KEYWORDS = [
   "Solutions Consultant",
   "Pre-Sales Consultant",
@@ -102,9 +103,8 @@ const KEYWORDS = [
   "Accounting Analyst",
 ];
 
-// Domini usati per costruire la ricerca incrociata "cerca ovunque"
-// (operatore site: su Google, nessuna API richiesta).
 const SEARCH_DOMAINS = [
+  "linkedin.com/jobs",
   "ibm.com/careers",
   "metacareers.com",
   "apply.careers.microsoft.com",

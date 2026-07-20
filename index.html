@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <title>Tabellone Partenze — Radar Pre-Sales & Tech Sales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Un unico tabellone per monitorare le posizioni entry-level in ambito Pre-Sales, Tech Sales e IT Consulting nelle Big Tech, senza aprire dieci schede." />
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="board-header">
+    <div class="board-header__eyebrow">CAREER CONTROL BOARD</div>
+    <h1 class="board-header__title" id="flap-title"></h1>
+    <p class="board-header__subtitle">
+      Le posizioni entry-level in Pre-Sales, Tech Sales e IT Consulting nelle Big Tech, su un unico tabellone —
+      <span id="last-updated">caricamento…</span>.
+    </p>
+  </header>
+
+  <main>
+    <section class="board" aria-label="Tabellone aziende">
+      <div class="board__row board__row--head" role="row">
+        <span class="col col--code">Codice</span>
+        <span class="col col--company">Azienda</span>
+        <span class="col col--filters">Filtri attivi</span>
+        <span class="col col--status">Stato</span>
+        <span class="col col--gate">Gate</span>
+      </div>
+      <div id="board-body"></div>
+    </section>
+
+    <section class="radar" aria-label="Amplia la ricerca">
+      <h2>Amplia il raggio del radar</h2>
+      <p>
+        Ruoli pre-sales / tech sales entry-level che forse non avevi considerato ancora. Scegline uno per filtrare al volo
+        le posizioni live qui sopra, oppure lancia una ricerca su tutte e 7 le aziende insieme.
+      </p>
+      <div class="chips" id="keyword-chips"></div>
+      <form id="radar-form" class="radar-form">
+        <input type="text" id="radar-input" placeholder="…oppure scrivi una parola chiave personalizzata" aria-label="Parola chiave personalizzata" />
+        <button type="submit">Cerca su tutte le aziende ↗</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="board-footer">
+    <p>
+      Board statica ospitata su GitHub Pages. Le righe <strong>Google</strong> e <strong>Netflix</strong> mostrano posizioni
+      reali aggiornate ogni giorno da una GitHub Action; le altre aziende non espongono dati pubblicamente utilizzabili da un
+      sito statico, quindi il gate apre la ricerca diretta con tutti i filtri già impostati.
+    </p>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

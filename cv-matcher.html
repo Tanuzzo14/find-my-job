@@ -28,22 +28,25 @@
     <div class="board-header__eyebrow">ATS OPTIMIZATION MODULE</div>
     <h1 class="board-header__title" id="cv-title">CV MATCH & TAILOR</h1>
     <p class="board-header__subtitle">
-      Carica il tuo Curriculum Vitae per estrarre le competenze. Troveremo fino a <strong>3 posizioni perfettamente in linea per ciascuna azienda</strong> e adatteremo l'introduzione del tuo CV con le parole chiave dell'annuncio per superare i filtri ATS.
+      Carica o incolla il tuo Curriculum Vitae. Troveremo fino a <strong>3 posizioni in linea per ciascuna azienda</strong> e adatteremo solo l'introduzione del CV con le parole chiave dell'annuncio, lasciando intatto il resto del curriculum.
     </p>
   </header>
 
   <main>
-    <!-- STEP 1: CARICAMENTO / PASTE CV -->
     <section class="radar cv-upload-section">
       <h2>1. Carica o incolla il tuo CV</h2>
-      <p>Trascina un file (.txt, .pdf, .doc) oppure incolla il testo in chiaro del tuo Curriculum Vitae.</p>
+      <p>Trascina un file <strong>.txt / .md</strong> oppure incolla il testo in chiaro del tuo CV. Tutto resta nel browser, senza API esterne.</p>
       
       <div class="upload-dropzone" id="dropzone">
-        <input type="file" id="cv-file-input" accept=".txt,.pdf,.doc,.docx,.md" class="visually-hidden" />
+        <input type="file" id="cv-file-input" accept=".txt,.md" class="visually-hidden" />
         <label for="cv-file-input" class="dropzone-label">
           <span class="dropzone-icon">📄</span>
-          <span>Clicca per selezionare un file o trascinalo qui</span>
+          <span>Clicca per selezionare un file .txt/.md o trascinalo qui</span>
         </label>
+      </div>
+
+      <div id="cv-status" class="inline-status inline-status--neutral">
+        Suggerimento: se il CV è in PDF/DOCX, copia e incolla il testo qui sotto per mantenere il flusso completamente client-side.
       </div>
 
       <div class="cv-textarea-wrapper">
@@ -57,16 +60,14 @@
       </div>
     </section>
 
-    <!-- STEP 2: RISULTATI DI MATCHING PER AZIENDA -->
     <section id="matching-results-section" class="cv-results-section" hidden>
       <h2>2. Offerte in target per azienda (Max 3 per azienda)</h2>
-      <p>Seleziona un annuncio per iniettare automaticamente le sue parole chiave nell'introduzione del tuo CV e scaricare il CV e la Cover Letter personalizzati.</p>
+      <p>Seleziona un annuncio per personalizzare il profilo iniziale del CV, aprire l'annuncio originale e scaricare CV e Cover Letter ottimizzati ATS.</p>
 
       <div id="company-matches-grid" class="company-matches-grid"></div>
     </section>
 
-    <!-- STEP 3: MODALE GENERAZIONE / DOWNLOAD -->
-    <div id="tailor-modal" class="modal-backdrop" hidden>
+    <div id="tailor-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-job-title" hidden>
       <div class="modal-content">
         <header class="modal-header">
           <div>
@@ -77,6 +78,7 @@
         </header>
 
         <div class="modal-body">
+          <a id="modal-job-link" class="modal-link" href="#" target="_blank" rel="noopener noreferrer">Apri annuncio originale</a>
           <div class="keywords-box">
             <strong>Parole chiave ATS identificate e iniettate nell'introduzione:</strong>
             <div id="modal-keywords-chips" class="chips" style="margin-top:8px;"></div>
@@ -97,6 +99,7 @@
         </div>
 
         <footer class="modal-footer">
+          <button type="button" id="btn-open-job" class="btn btn--ghost">🔗 Apri annuncio</button>
           <button type="button" id="btn-download-cv" class="btn btn--gate">💾 Scarica CV (.txt)</button>
           <button type="button" id="btn-download-cover" class="btn btn--gate">📄 Scarica Cover Letter (.txt)</button>
         </footer>

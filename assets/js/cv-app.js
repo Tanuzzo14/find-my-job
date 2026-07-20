@@ -133,7 +133,7 @@ function getCompanyJobs(company) {
 function normalizeJob(company, job, sourceType) {
   const keywords = Array.isArray(job.keywords) && job.keywords.length ? job.keywords : extractKeywords(job.title || "");
   const location = job.location || "Europa / focus tech";
-  return {
+  const normalizedJob = {
     companyId: company.id,
     companyName: company.name,
     companyCode: company.code,
@@ -147,6 +147,9 @@ function normalizeJob(company, job, sourceType) {
     workMode: job.workMode || inferWorkMode(location),
     sourceType,
   };
+
+  normalizedJob.haystack = buildHaystack(normalizedJob);
+  return normalizedJob;
 }
 
 function dedupeJobs(jobs) {
@@ -161,7 +164,7 @@ function dedupeJobs(jobs) {
 
 function scoreJob(job, cvText) {
   const cvLower = cvText.toLowerCase();
-  const haystack = buildHaystack(job);
+  const haystack = job.haystack || buildHaystack(job);
   let score = 0;
 
   KEYWORDS.forEach((keyword) => {
@@ -258,12 +261,11 @@ function buildTailoredCV(originalCv, job) {
 
 function buildTailoredIntro(job, originalIntro) {
   const keywordsList = job.keywords.join(", ");
-  const toneBridge = originalIntro ? "Mantengo il tono del profilo originale valorizzando le competenze più rilevanti per il ruolo." : "";
   const introSegments = [
     `Profilo professionale orientato a ${job.title} con focus su ${job.companyName}.`,
     `Background in ambito pre-sales, business support e consulenza IT con attenzione a ${keywordsList}.`,
     "Disponibilità a contribuire su attività customer-facing, discovery, supporto tecnico e coordinamento con stakeholder mantenendo un taglio entry level / 0-3 anni.",
-    toneBridge,
+    ...(originalIntro ? ["Mantengo il tono del profilo originale valorizzando le competenze più rilevanti per il ruolo."] : []),
   ];
 
   return introSegments
@@ -288,6 +290,7 @@ function replaceIntroBlock(originalCv, tailoredIntro) {
 
 function isLikelyIntroBlock(block) {
   const trimmed = String(block || "").trim();
+  if (!trimmed) return false;
   const firstLine = trimmed.split("\n")[0].toLowerCase();
   if (/^(profilo|summary|about|introduzione|profile)/.test(firstLine)) return true;
   return trimmed.length <= MAX_INTRO_BLOCK_LENGTH && trimmed.split(/\n+/).length <= MAX_INTRO_LINES;
@@ -363,7 +366,7 @@ function downloadFile(filename, text) {
 }
 
 function matchesTargetProfile(job) {
-  const haystack = buildHaystack(job);
+  const haystack = job.haystack || buildHaystack(job);
   const hasRoleMatch = TARGET_ROLE_TERMS.some((term) => haystack.includes(term));
   const hasExperienceMatch = EXPERIENCE_TERMS.some((term) => haystack.includes(term));
   return hasRoleMatch && hasExperienceMatch;

@@ -203,8 +203,7 @@ function normalizeJob(company, job, sourceType) {
   const tags = Array.isArray(job.tags) ? job.tags : [];
   const location = job.location || "Europa / focus tech";
   const department = job.department || company.name;
-
-  return {
+  const normalizedJob = {
     companyId: company.id,
     title: job.title || "Posizione senza titolo",
     department,
@@ -216,6 +215,9 @@ function normalizeJob(company, job, sourceType) {
     workMode: job.workMode || inferWorkMode(location),
     sourceType,
   };
+
+  normalizedJob.haystack = buildHaystack(normalizedJob);
+  return normalizedJob;
 }
 
 function dedupeJobs(jobs) {
@@ -250,7 +252,7 @@ function inferWorkMode(location) {
 }
 
 function matchesTargetProfile(job) {
-  const haystack = buildHaystack(job);
+  const haystack = job.haystack || buildHaystack(job);
   const hasRoleMatch = TARGET_ROLE_TERMS.some((term) => haystack.includes(term));
   const hasExperienceMatch = EXPERIENCE_TERMS.some((term) => haystack.includes(term));
   return hasRoleMatch && hasExperienceMatch;
@@ -258,14 +260,14 @@ function matchesTargetProfile(job) {
 
 function matchesKeyword(job, keyword) {
   if (!keyword) return true;
-  return buildHaystack(job).includes(keyword.toLowerCase());
+  return (job.haystack || buildHaystack(job)).includes(keyword.toLowerCase());
 }
 
 function matchesPreset(job, presetId) {
   if (!presetId) return true;
   const preset = FILTER_PRESETS.find((entry) => entry.id === presetId);
   if (!preset) return true;
-  const haystack = buildHaystack(job);
+  const haystack = job.haystack || buildHaystack(job);
   return preset.terms.some((term) => haystack.includes(term));
 }
 

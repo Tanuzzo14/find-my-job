@@ -737,6 +737,8 @@ main {
 .job-match-item:focus-visible {
   border-color: var(--focus-ring);
   transform: translateY(-2px);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
 }
 
 .job-match-item__header {

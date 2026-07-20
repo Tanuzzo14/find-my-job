@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <title>CV Matcher & ATS Optimizer — Career Control Board</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Carica il tuo CV, trova le posizioni più in linea per ogni azienda e scarica il CV e la Cover Letter ottimizzati ATS per l'annuncio selezionato." />
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <nav class="nav-bar">
+    <div class="nav-bar__inner">
+      <span class="nav-bar__brand">SYS // CAREER CONTROL BOARD</span>
+      <div class="nav-bar__links">
+        <a href="index.html" class="nav-link">Tabellone Partenze</a>
+        <a href="cv-matcher.html" class="nav-link nav-link--active nav-link--highlight">⚡ CV Matcher & ATS Tailor</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="board-header">
+    <div class="board-header__eyebrow">ATS OPTIMIZATION MODULE</div>
+    <h1 class="board-header__title" id="cv-title">CV MATCH & TAILOR</h1>
+    <p class="board-header__subtitle">
+      Carica il tuo Curriculum Vitae per estrarre le competenze. Troveremo fino a <strong>3 posizioni perfettamente in linea per ciascuna azienda</strong> e adatteremo l'introduzione del tuo CV con le parole chiave dell'annuncio per superare i filtri ATS.
+    </p>
+  </header>
+
+  <main>
+    <!-- STEP 1: CARICAMENTO / PASTE CV -->
+    <section class="radar cv-upload-section">
+      <h2>1. Carica o incolla il tuo CV</h2>
+      <p>Trascina un file (.txt, .pdf, .doc) oppure incolla il testo in chiaro del tuo Curriculum Vitae.</p>
+      
+      <div class="upload-dropzone" id="dropzone">
+        <input type="file" id="cv-file-input" accept=".txt,.pdf,.doc,.docx,.md" class="visually-hidden" />
+        <label for="cv-file-input" class="dropzone-label">
+          <span class="dropzone-icon">📄</span>
+          <span>Clicca per selezionare un file o trascinalo qui</span>
+        </label>
+      </div>
+
+      <div class="cv-textarea-wrapper">
+        <textarea id="cv-text-input" rows="8" placeholder="Oppure incolla qui il testo del tuo CV (es: Profilo, Esperienza, Competenze, Educazione)..."></textarea>
+      </div>
+
+      <div class="action-bar">
+        <button type="button" id="btn-analyze" class="btn btn--gate btn--large">
+          Analizza CV e Trova Offerte In Linea ↗
+        </button>
+      </div>
+    </section>
+
+    <!-- STEP 2: RISULTATI DI MATCHING PER AZIENDA -->
+    <section id="matching-results-section" class="cv-results-section" hidden>
+      <h2>2. Offerte in target per azienda (Max 3 per azienda)</h2>
+      <p>Seleziona un annuncio per iniettare automaticamente le sue parole chiave nell'introduzione del tuo CV e scaricare il CV e la Cover Letter personalizzati.</p>
+
+      <div id="company-matches-grid" class="company-matches-grid"></div>
+    </section>
+
+    <!-- STEP 3: MODALE GENERAZIONE / DOWNLOAD -->
+    <div id="tailor-modal" class="modal-backdrop" hidden>
+      <div class="modal-content">
+        <header class="modal-header">
+          <div>
+            <span class="code-badge" id="modal-company-code">LNK</span>
+            <h3 id="modal-job-title" style="display:inline; margin-left:8px;">Titolo Posizione</h3>
+          </div>
+          <button type="button" id="btn-close-modal" class="btn-close">&times;</button>
+        </header>
+
+        <div class="modal-body">
+          <div class="keywords-box">
+            <strong>Parole chiave ATS identificate e iniettate nell'introduzione:</strong>
+            <div id="modal-keywords-chips" class="chips" style="margin-top:8px;"></div>
+          </div>
+
+          <div class="preview-tabs">
+            <button type="button" id="tab-cv" class="tab-btn tab-btn--active">CV Ottimizzato ATS</button>
+            <button type="button" id="tab-cover" class="tab-btn">Cover Letter Personalizzata</button>
+          </div>
+
+          <div id="preview-cv-panel" class="preview-panel">
+            <textarea id="cv-output-text" rows="12"></textarea>
+          </div>
+
+          <div id="preview-cover-panel" class="preview-panel" hidden>
+            <textarea id="cover-output-text" rows="12"></textarea>
+          </div>
+        </div>
+
+        <footer class="modal-footer">
+          <button type="button" id="btn-download-cv" class="btn btn--gate">💾 Scarica CV (.txt)</button>
+          <button type="button" id="btn-download-cover" class="btn btn--gate">📄 Scarica Cover Letter (.txt)</button>
+        </footer>
+      </div>
+    </div>
+  </main>
+
+  <footer class="board-footer">
+    <p>
+      Elaborazione 100% client-side e riservata. Il tuo CV non viene mai inviato ad alcun server remoto.
+    </p>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/cv-app.js"></script>
+</body>
+</html>

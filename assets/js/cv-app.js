@@ -1,8 +1,9 @@
 const JOBS_DATA_URL = "data/jobs.json";
 // 900 caratteri coprono un tipico blocco iniziale di profilo/sommario senza invadere sezioni più lunghe come esperienze o progetti.
 const MAX_INTRO_BLOCK_LENGTH = 900;
+const MAX_INTRO_LINES = 6;
 const MAX_FILENAME_SEGMENT_LENGTH = 48;
-const ORDERED_KEYWORDS = [...KEYWORDS].sort((left, right) => right.length - left.length);
+const DEDUPE_KEY_SEPARATOR = "::";
 
 let rawJobsData = { sources: {} };
 let userCvText = "";
@@ -151,7 +152,7 @@ function normalizeJob(company, job, sourceType) {
 function dedupeJobs(jobs) {
   const seen = new Set();
   return jobs.filter((job) => {
-    const key = `${job.title.toLowerCase()}::${job.url}`;
+    const key = `${job.title.toLowerCase()}${DEDUPE_KEY_SEPARATOR}${job.url}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -258,12 +259,14 @@ function buildTailoredCV(originalCv, job) {
 function buildTailoredIntro(job, originalIntro) {
   const keywordsList = job.keywords.join(", ");
   const toneBridge = originalIntro ? "Mantengo il tono del profilo originale valorizzando le competenze più rilevanti per il ruolo." : "";
-  return [
+  const introSegments = [
     `Profilo professionale orientato a ${job.title} con focus su ${job.companyName}.`,
     `Background in ambito pre-sales, business support e consulenza IT con attenzione a ${keywordsList}.`,
-    `Disponibilità a contribuire su attività customer-facing, discovery, supporto tecnico e coordinamento con stakeholder mantenendo un taglio entry level / 0-3 anni.`,
+    "Disponibilità a contribuire su attività customer-facing, discovery, supporto tecnico e coordinamento con stakeholder mantenendo un taglio entry level / 0-3 anni.",
     toneBridge,
-  ]
+  ];
+
+  return introSegments
     .filter(Boolean)
     .join(" ");
 }
@@ -287,7 +290,7 @@ function isLikelyIntroBlock(block) {
   const trimmed = String(block || "").trim();
   const firstLine = trimmed.split("\n")[0].toLowerCase();
   if (/^(profilo|summary|about|introduzione|profile)/.test(firstLine)) return true;
-  return trimmed.length <= MAX_INTRO_BLOCK_LENGTH && trimmed.split(/\n+/).length <= 6;
+  return trimmed.length <= MAX_INTRO_BLOCK_LENGTH && trimmed.split(/\n+/).length <= MAX_INTRO_LINES;
 }
 
 function extractFirstBlock(text) {

@@ -15,6 +15,8 @@
   --signal-live: #3fd18b;
   --signal-live-dim: #1d5c40;
   --focus-ring: #ffb100;
+  --hero-card-top: rgba(255, 177, 0, 0.05);
+  --hero-card-bottom: rgba(17, 20, 29, 0.92);
 
   --font-display: "Space Grotesk", "IBM Plex Sans", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
@@ -118,7 +120,7 @@ a {
 .hero-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(255, 177, 0, 0.05), rgba(17, 20, 29, 0.92));
+  background: linear-gradient(180deg, var(--hero-card-top), var(--hero-card-bottom));
   padding: 18px;
 }
 

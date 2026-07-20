@@ -105,6 +105,7 @@ const KEYWORDS = [
 ];
 
 const DEFAULT_KEYWORDS = ["Technical Sales", "Pre-Sales", "Consulting", "Business Support"];
+const ORDERED_KEYWORDS = [...KEYWORDS].sort((left, right) => right.length - left.length);
 
 const TARGET_ROLE_TERMS = [
   "pre-sales",

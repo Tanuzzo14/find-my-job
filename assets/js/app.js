@@ -1,6 +1,6 @@
 const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const JOBS_DATA_URL = "data/jobs.json";
-const ORDERED_KEYWORDS = [...KEYWORDS].sort((left, right) => right.length - left.length);
+const DEDUPE_KEY_SEPARATOR = "::";
 
 let jobsData = { generated_at: null, sources: {} };
 let activeKeyword = "";
@@ -221,7 +221,7 @@ function normalizeJob(company, job, sourceType) {
 function dedupeJobs(jobs) {
   const seen = new Set();
   return jobs.filter((job) => {
-    const key = `${job.title.toLowerCase()}::${job.url}`;
+    const key = `${job.title.toLowerCase()}${DEDUPE_KEY_SEPARATOR}${job.url}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;

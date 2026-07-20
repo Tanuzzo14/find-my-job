@@ -1,4 +1,8 @@
 const JOBS_DATA_URL = "data/jobs.json";
+// Sotto questa soglia trattiamo il primo blocco come profilo iniziale da sostituire.
+const MAX_INTRO_BLOCK_LENGTH = 900;
+const MAX_FILENAME_SEGMENT_LENGTH = 48;
+const ORDERED_KEYWORDS = [...KEYWORDS].sort((left, right) => right.length - left.length);
 
 let rawJobsData = { sources: {} };
 let userCvText = "";
@@ -266,7 +270,7 @@ function replaceIntroBlock(originalCv, tailoredIntro) {
   const blocks = normalized.split(/\n\s*\n/);
   if (!blocks.length) return tailoredIntro;
 
-  if (blocks[0].length <= 900) {
+  if (blocks[0].length <= MAX_INTRO_BLOCK_LENGTH) {
     blocks[0] = tailoredIntro;
     return blocks.join("\n\n");
   }
@@ -362,7 +366,7 @@ function buildHaystack(job) {
 
 function extractKeywords(title) {
   const lowerTitle = String(title || "").toLowerCase();
-  const matches = KEYWORDS.filter((keyword) => lowerTitle.includes(keyword.toLowerCase()));
+  const matches = ORDERED_KEYWORDS.filter((keyword) => lowerTitle.includes(keyword.toLowerCase()));
   return matches.length ? matches : ["Technical Sales", "Pre-Sales", "Consulting", "Business Support"];
 }
 
@@ -388,7 +392,7 @@ function slugify(value) {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "")
-    .slice(0, 60);
+    .slice(0, MAX_FILENAME_SEGMENT_LENGTH);
 }
 
 function getFileExtension(filename) {

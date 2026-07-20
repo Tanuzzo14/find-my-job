@@ -1,5 +1,6 @@
 const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const JOBS_DATA_URL = "data/jobs.json";
+const ORDERED_KEYWORDS = [...KEYWORDS].sort((left, right) => right.length - left.length);
 
 let jobsData = { generated_at: null, sources: {} };
 let activeKeyword = "";
@@ -229,7 +230,7 @@ function dedupeJobs(jobs) {
 
 function extractKeywords(title) {
   const lowerTitle = String(title || "").toLowerCase();
-  const matches = KEYWORDS.filter((keyword) => lowerTitle.includes(keyword.toLowerCase()));
+  const matches = ORDERED_KEYWORDS.filter((keyword) => lowerTitle.includes(keyword.toLowerCase()));
   return matches.length ? matches : ["Technical Sales", "Pre-Sales", "Consulting", "Business Support"];
 }
 

@@ -108,6 +108,47 @@ a {
   font-size: 15px;
 }
 
+.hero-panels {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.hero-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, rgba(255, 177, 0, 0.05), rgba(17, 20, 29, 0.92));
+  padding: 18px;
+}
+
+.hero-card__label {
+  display: block;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  margin-bottom: 10px;
+}
+
+.hero-card__value {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: clamp(24px, 4vw, 34px);
+  color: var(--flap-amber);
+  margin-bottom: 8px;
+}
+
+.hero-card__value--small {
+  font-size: clamp(18px, 2.8vw, 24px);
+}
+
+.hero-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
 #last-updated {
   color: var(--text-primary);
   font-family: var(--font-mono);
@@ -282,6 +323,23 @@ main {
   padding-left: 3px;
 }
 
+.job-list__summary {
+  display: grid;
+  gap: 6px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.job-list__summary-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.job-list__summary-meta {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
 .job-list {
   list-style: none;
   margin: 10px 0 0;
@@ -292,15 +350,33 @@ main {
 
 .job-list__item {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 14px;
   padding: 9px 12px;
   border-radius: var(--radius);
+  border: 1px solid transparent;
 }
 
 .job-list__item:hover {
   background: var(--bg-panel-raised);
+  border-color: var(--line);
+}
+
+.job-list__content {
+  display: grid;
+  gap: 8px;
+}
+
+.job-list__meta-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.job-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .job-list__title {
@@ -447,6 +523,10 @@ main {
    Responsive: stack rows as cards below 760px
    ----------------------------------------------------------------- */
 @media (max-width: 760px) {
+  .hero-panels {
+    grid-template-columns: 1fr;
+  }
+
   .board__row--head {
     display: none;
   }
@@ -463,6 +543,11 @@ main {
 
   .col--company::before {
     content: "";
+  }
+
+  .job-list__item {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
@@ -617,8 +702,14 @@ main {
 }
 
 .company-match-card__header h3 {
-  margin: 0;
+  margin: 0 0 4px;
   font-size: 18px;
+}
+
+.company-match-card__subtitle {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 12px;
 }
 
 .job-match-item {
@@ -629,6 +720,11 @@ main {
   margin-bottom: 10px;
   cursor: pointer;
   transition: border-color 0.15s ease, transform 0.15s ease;
+  width: 100%;
+  text-align: left;
+  color: inherit;
+  appearance: none;
+  font: inherit;
 }
 
 .job-match-item:hover {
@@ -675,6 +771,37 @@ main {
 .btn--small {
   font-size: 10px;
   padding: 4px 8px;
+}
+
+.inline-status {
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+
+.inline-status--neutral {
+  background: var(--bg-panel-raised);
+  color: var(--text-muted);
+}
+
+.inline-status--success {
+  background: rgba(63, 209, 139, 0.08);
+  border-color: var(--signal-live-dim);
+  color: #9fe6c0;
+}
+
+.inline-status--warning {
+  background: rgba(255, 177, 0, 0.08);
+  border-color: var(--flap-amber-dim);
+  color: var(--flap-amber);
+}
+
+.inline-status--error {
+  background: rgba(255, 107, 107, 0.08);
+  border-color: rgba(255, 107, 107, 0.35);
+  color: #ff9f9f;
 }
 
 /* -------------------------------------------------------------------
@@ -739,6 +866,18 @@ main {
   margin-bottom: 16px;
 }
 
+.modal-link {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: var(--flap-amber);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.modal-link:hover {
+  text-decoration: underline;
+}
+
 .preview-tabs {
   display: flex;
   gap: 8px;
@@ -781,6 +920,7 @@ main {
   display: flex;
   justify-content: flex-end;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .visually-hidden {

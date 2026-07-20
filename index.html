@@ -28,12 +28,30 @@
     <div class="board-header__eyebrow">CAREER CONTROL BOARD</div>
     <h1 class="board-header__title" id="flap-title"></h1>
     <p class="board-header__subtitle">
-      Le posizioni entry-level in Pre-Sales, Tech Sales e IT Consulting nelle Big Tech e su LinkedIn su un unico tabellone —
+      Solo ruoli in target per le aziende che ti interessano: entry level, massimo 3 anni di esperienza e focus pre-sales / consulting / business support IT —
       <span id="last-updated">caricamento…</span>.
     </p>
   </header>
 
   <main>
+    <section class="hero-panels" aria-label="Riepilogo dashboard">
+      <article class="hero-card">
+        <span class="hero-card__label">AZIENDE TARGET</span>
+        <strong class="hero-card__value" id="metric-companies">0</strong>
+        <p>IBM, Meta, Microsoft, Google, Amazon, eBay, Netflix e LinkedIn in una sola UX.</p>
+      </article>
+      <article class="hero-card">
+        <span class="hero-card__label">ANNUNCI LIVE IN TARGET</span>
+        <strong class="hero-card__value" id="metric-live">0</strong>
+        <p>Solo i ruoli coerenti con il tuo focus, senza aprire una raffica di pagine.</p>
+      </article>
+      <article class="hero-card">
+        <span class="hero-card__label">FOCUS ATTIVO</span>
+        <strong class="hero-card__value hero-card__value--small" id="metric-focus">—</strong>
+        <p>Pre-sales, solution consulting, accounting/business support engineer e IT specialist.</p>
+      </article>
+    </section>
+
     <section class="board" aria-label="Tabellone aziende">
       <div class="board__row board__row--head" role="row">
         <span class="col col--code">Codice</span>
@@ -46,9 +64,18 @@
     </section>
 
     <section class="radar" aria-label="Amplia la ricerca">
+      <h2>Focus automatico</h2>
+      <p>
+        Il tabellone mostra e short-lista solo ruoli coerenti con il tuo profilo: entry level, 0-3 anni, pre-sales / tech sales / consulting.
+        Ho aggiunto anche un filtro extra <strong>Hybrid / Remote</strong> per rendere la ricerca più utile.
+      </p>
+      <div class="chips" id="preset-chips"></div>
+    </section>
+
+    <section class="radar" aria-label="Amplia la ricerca per keyword">
       <h2>Amplia il raggio del radar</h2>
       <p>
-        Ruoli pre-sales / tech sales entry-level. Scegline uno per filtrare al volo le posizioni live oppure lancia una ricerca su tutte le piattaforme.
+        Ruoli pre-sales / tech sales entry-level e correlati. Scegline uno per filtrare al volo le shortlist visibili oppure lancia una ricerca pronta su tutte le piattaforme.
       </p>
       <div class="chips" id="keyword-chips"></div>
       <form id="radar-form" class="radar-form">
@@ -60,7 +87,7 @@
 
   <footer class="board-footer">
     <p>
-      Board statica ospitata su GitHub Pages. Monitoraggio integrato per LinkedIn, Google, Netflix, IBM, Meta, Microsoft, Amazon ed eBay.
+      Board statica 100% GitHub Pages + client-side. Nessuna API AI lato server: solo dati live quando disponibili e shortlist curate per evitare di aprire 10 schede.
     </p>
   </footer>
 

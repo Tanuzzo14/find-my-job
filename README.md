@@ -1,43 +1,76 @@
-# Tabellone Partenze — Career Control Board
+# Career Control Board — GitHub Pages Ready
 
-Una dashboard statica in stile tabellone aeroportuale che raccoglie in un'unica pagina le ricerche di lavoro **già filtrate** per 7 aziende (IBM, Meta, Microsoft, Google, Amazon, eBay, Netflix), così non devi più aprire dieci schede a mano.
+Dashboard statica pensata per GitHub Pages che ti mostra solo le aziende target e solo i ruoli coerenti con il tuo focus:
 
-## Come funziona (importante, leggi qui prima)
+- **entry level / early career**
+- **massimo 3 anni di esperienza**
+- **pre-sales / tech sales / solution consulting / business support / IT specialist**
+- filtro extra aggiunto: **Hybrid / Remote**
 
-Un sito su GitHub Pages è **statico**: gira solo nel browser, non ha un server. Questo ha una conseguenza tecnica precisa:
+Il progetto resta **100% client-side**: nessuna API AI lato server.
 
-- **Google e Netflix** restituiscono i risultati della ricerca già "dentro" alla pagina HTML quando viene caricata (dati lato server). Per queste due il sito mostra un badge **LIVE**: una GitHub Action gira ogni giorno, scarica quella pagina, estrae le posizioni aperte e le salva in `data/jobs.json`, che il sito legge e mostra come lista cliccabile direttamente nel tabellone.
-- **IBM, Meta, Microsoft, Amazon ed eBay** costruiscono la lista risultati via JavaScript *dopo* il caricamento della pagina, chiamando le proprie API interne. Un sito statico (e anche una richiesta HTTP semplice da un server) non riesce a leggerle in modo affidabile senza un vero browser automatizzato — e comunque cambiano struttura spesso. Per queste il badge è **RICERCA DIRETTA**: il pulsante "Apri ricerca →" porta dritto alla pagina dei risultati con **tutti i filtri già impostati** (gli stessi che avevi costruito tu, invariati).
+## Cosa fa adesso
 
-Risultato pratico: un solo posto dove vedere lo stato di tutte e 7, un click per ciascuna, zero digitazione ripetuta di filtri.
+### 1. Tabellone principale
 
-## Il radar delle parole chiave
+- Mostra **8 aziende target** in un'unica UI.
+- Per ogni azienda puoi aprire una **shortlist interna** senza aprire 10 tab.
+- Le shortlist mostrano solo ruoli coerenti con il focus desiderato.
+- Per **Google** e **Netflix** integra dati live salvati in `data/jobs.json`.
+- Per le altre aziende usa shortlist curate + link alla ricerca già filtrata.
 
-In fondo alla pagina trovi una serie di ruoli entry-level pre-sales / tech sales che forse non avevi considerato (Solutions Consultant, Business Support Engineer, Technical Account Manager, Customer Engineer, Sales/Business Development Representative, ecc. — modificabili in `assets/js/config.js`). Cliccandone uno:
+### 2. CV Matcher & ATS Tailor
 
-1. Filtra al volo le posizioni **live** (Google, Netflix) già mostrate nel tabellone.
-2. Il pulsante "Cerca su tutte le aziende ↗" apre una ricerca Google con `site:` sui domini carriere di tutte e 7 le aziende insieme, senza bisogno di conoscere il formato dei filtri di ciascuna — funziona sempre, anche per le aziende senza dati live.
+- Caricamento client-side di file **`.txt` / `.md`** oppure incolla manuale del testo CV.
+- Matching di **massimo 3 annunci per azienda**.
+- Click sull'annuncio = apertura preview con:
+  - **CV personalizzato**
+  - **cover letter personalizzata**
+  - **link all'annuncio originale**
+- Il CV viene adattato **solo nell'introduzione/profilo iniziale**, lasciando invariato il resto.
+
+## File da caricare su GitHub per avere il sito pronto
+
+Carica l'intero repository mantenendo la struttura:
+
+- `/index.html`
+- `/cv-matcher.html`
+- `/.nojekyll`
+- `/assets/css/style.css`
+- `/assets/js/config.js`
+- `/assets/js/app.js`
+- `/assets/js/cv-app.js`
+- `/data/jobs.json`
+- `/.github/workflows/update-jobs.yml`
+- `/scripts/fetch-jobs.mjs`
 
 ## Pubblicazione su GitHub Pages
 
-1. Crea un repository nuovo (anche privato o pubblico, a tua scelta) su GitHub.
-2. Carica **tutti** i file di questo pacchetto mantenendo la struttura delle cartelle (`assets/`, `data/`, `scripts/`, `.github/`, `index.html`, `.nojekyll`, questo `README.md`).
-3. Vai su **Settings → Actions → General → Workflow permissions** e seleziona **"Read and write permissions"**. Serve perché la Action deve poter salvare `data/jobs.json` aggiornato.
-4. Vai su **Settings → Pages**, alla voce **Source** scegli **"Deploy from a branch"**, branch **main**, cartella **/ (root)**. Salva.
-5. Dopo un paio di minuti il sito sarà live su `https://<tuo-utente>.github.io/<nome-repo>/`.
-6. (Facoltativo, consigliato) Vai su **Actions → Aggiorna offerte di lavoro → Run workflow** per popolare subito `data/jobs.json` senza aspettare il primo giro schedulato delle 06:00 UTC.
+1. Crea o aggiorna il repository su GitHub.
+2. Carica i file sopra mantenendo le cartelle.
+3. In **Settings → Actions → General → Workflow permissions** abilita **Read and write permissions**.
+4. In **Settings → Pages** scegli **Deploy from a branch**, branch `main`, cartella `/ (root)`.
+5. Salva e attendi la pubblicazione.
+6. Facoltativo: esegui manualmente la workflow **Aggiorna offerte di lavoro** per aggiornare subito `data/jobs.json`.
 
-## Modificare filtri, aziende o parole chiave
+## Dove aggiornare i filtri
 
-Tutto quello che ti serve modificare è in **`assets/js/config.js`**:
+Tutta la configurazione si trova in:
 
-- `COMPANIES`: cambia `url` per aggiornare i filtri di un'azienda (basta sostituire il link con uno nuovo copiato dal sito), o `live: true/false` se in futuro scopri che un'altra azienda espone dati leggibili.
-- `KEYWORDS`: aggiungi o rimuovi ruoli dal radar.
+- `/assets/js/config.js`
 
-Nessun'altra parte del codice va toccata per queste modifiche.
+Qui puoi modificare:
 
-## Limiti onesti
+- aziende e URL già filtrati
+- keyword dei ruoli
+- filtri focus
+- shortlist curate per azienda
 
-- Se IBM, Meta, Microsoft, Amazon o eBay cambiano i parametri della loro pagina di ricerca, il link diretto potrebbe restare valido lo stesso (i parametri URL tendono a essere più stabili del resto del sito) ma non è garantito nel tempo: se un giorno un gate non applica più i filtri, vai sul sito dell'azienda e ricostruisci l'URL, poi incollalo in `config.js`.
-- L'estrazione dei titoli per Google si basa sull'URL della posizione (che contiene sempre un identificativo leggibile), non su selettori CSS: è una scelta deliberata per essere più resistente ai frequenti restyling del sito, ma il titolo mostrato è una ricostruzione dall'URL e potrebbe differire leggermente dal titolo esatto mostrato sul sito Google.
-- Questo progetto legge solo pagine pubbliche di ricerca lavoro, alla frequenza di una volta al giorno: un uso personale e a basso volume come questo.
+## Nota importante
+
+Su GitHub Pages statico non è possibile leggere in modo affidabile tutti i career site che costruiscono i risultati via JavaScript senza un backend o un browser automation completo. Per questo:
+
+- **Google / Netflix** = dati live se disponibili
+- **altre aziende** = esperienza client-side con shortlist + link di ricerca pronti
+
+Questa scelta mantiene il sito leggero, deployabile e pronto all'uso anche senza backend.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T07:13:41.289Z",
+  "generated_at": "2026-07-28T06:57:02.831Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -36,13 +36,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/109013365312889542-account-executive-new-business-sales-uki",
-          "updated": null
-        },
-        {
-          "title": "Scaled Customer Engineer Smb Artificial Intelligence",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/119644601223914182-scaled-customer-engineer-smb-artificial-intelligence",
           "updated": null
         },
         {
@@ -109,13 +102,6 @@
           "updated": null
         },
         {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions English Polish",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/129057683478061766-account-strategist-sbs-engage-google-customer-solutions-english-polish",
-          "updated": null
-        },
-        {
           "title": "Account Executive Emea Apps New Business English Hebrew",
           "location": null,
           "department": null,
@@ -137,17 +123,31 @@
           "updated": null
         },
         {
-          "title": "Accelerated Growth Consultant Agt Google Customer Solutions Market English French",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/130570025114182342-accelerated-growth-consultant-agt-google-customer-solutions-market-english-french",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Smb Sales Google Customer Solutions Uki Market",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/123175669931614918-account-strategist-smb-sales-google-customer-solutions-uki-market",
+          "updated": null
+        },
+        {
+          "title": "Account Manager Customer Onboarding Gcs Kickstart English Hebrew",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/122151005625164486-account-manager-customer-onboarding-gcs-kickstart-english-hebrew",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Gcs English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/135930670433084102-account-strategist-sbs-engage-gcs-english-dutch",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Sales Arabic English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/103904958054572742-account-executive-new-business-sales-arabic-english",
           "updated": null
         }
       ]

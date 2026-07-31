@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T06:57:39.019Z",
+  "generated_at": "2026-07-31T07:03:06.420Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -46,24 +46,10 @@
           "updated": null
         },
         {
-          "title": "Account Executive Emea Apps New Business English German",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/102312066353636038-account-executive-emea-apps-new-business-english-german",
-          "updated": null
-        },
-        {
           "title": "Data And Measurement Account Manager Iberia And Italy",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/135548829687521990-data-and-measurement-account-manager-iberia-and-italy",
-          "updated": null
-        },
-        {
-          "title": "Accelerated Growth Consultant Accelerated Growth Team Gcs Spain English Spanish",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/91769558024495814-accelerated-growth-consultant-accelerated-growth-team-gcs-spain-english-spanish",
           "updated": null
         },
         {
@@ -99,6 +85,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/100058887855448774-account-executive-new-business-sales-french-english",
+          "updated": null
+        },
+        {
+          "title": "International Growth Consultant Market Iberia",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/80127209502581446-international-growth-consultant-market-iberia",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/103904958054572742-account-executive-new-business-sales-arabic-english",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Google Customer Solution English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
           "updated": null
         }
       ]

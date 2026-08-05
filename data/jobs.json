@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T06:56:47.767Z",
+  "generated_at": "2026-08-05T06:57:55.615Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -15,6 +15,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/106128536711897798-forward-deployed-engineer-ii-gcc-french-german",
+          "updated": null
+        },
+        {
+          "title": "Technical Solutions Consultant Apps And Gaming",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/73013721458188998-technical-solutions-consultant-apps-and-gaming",
           "updated": null
         },
         {
@@ -36,6 +43,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/112551051491451590-account-strategist-sbs-engage-gcs-market-france-english-and-french",
+          "updated": null
+        },
+        {
+          "title": "Account Executive Emea Apps New Business English Hebrew",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/87365371857642182-account-executive-emea-apps-new-business-english-hebrew",
           "updated": null
         },
         {
@@ -134,20 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/122151005625164486-account-manager-customer-onboarding-gcs-kickstart-english-hebrew",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Sbs Engage Gcs English Dutch",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/135930670433084102-account-strategist-sbs-engage-gcs-english-dutch",
-          "updated": null
-        },
-        {
-          "title": "Account Executive New Business Sales Arabic English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/103904958054572742-account-executive-new-business-sales-arabic-english",
           "updated": null
         }
       ]

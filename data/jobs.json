@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T06:57:55.615Z",
+  "generated_at": "2026-08-06T08:35:00.600Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -10,13 +10,6 @@
       "ok": true,
       "count": 20,
       "jobs": [
-        {
-          "title": "Forward Deployed Engineer Ii Gcc French German",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/106128536711897798-forward-deployed-engineer-ii-gcc-french-german",
-          "updated": null
-        },
         {
           "title": "Technical Solutions Consultant Apps And Gaming",
           "location": null,
@@ -88,13 +81,6 @@
           "updated": null
         },
         {
-          "title": "Smb Account Manager Gemini Enterprise And Google Workspace Central And Eastern Europe",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/92536173179609798-smb-account-manager-gemini-enterprise-and-google-workspace-central-and-eastern-europe",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Mms Google Customer Solutions Mena Arabic English",
           "location": null,
           "department": null,
@@ -148,6 +134,20 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/122151005625164486-account-manager-customer-onboarding-gcs-kickstart-english-hebrew",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Gcs English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/135930670433084102-account-strategist-sbs-engage-gcs-english-dutch",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Google Customer Solution English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
           "updated": null
         }
       ]

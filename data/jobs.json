@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:39:45.085Z",
+  "generated_at": "2026-08-11T07:06:06.961Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -11,17 +11,17 @@
       "count": 20,
       "jobs": [
         {
-          "title": "Technical Solutions Consultant Apps And Gaming",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/73013721458188998-technical-solutions-consultant-apps-and-gaming",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions German Market",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/90693674085556934-account-strategist-midmarket-sales-google-customer-solutions-german-market",
+          "updated": null
+        },
+        {
+          "title": "Technical Solutions Consultant Apps And Gaming",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/73013721458188998-technical-solutions-consultant-apps-and-gaming",
           "updated": null
         },
         {
@@ -46,17 +46,17 @@
           "updated": null
         },
         {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Italy English Italian",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/87496530495185606-account-strategist-sbs-engage-google-customer-solutions-italy-english-italian",
-          "updated": null
-        },
-        {
           "title": "Data And Measurement Account Manager Iberia And Italy",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/135548829687521990-data-and-measurement-account-manager-iberia-and-italy",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Uki English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/141590830228873926-account-executive-new-business-uki-english",
           "updated": null
         },
         {
@@ -78,13 +78,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/123036588690023110-accelerated-growth-consultant-google-customer-solutions-swedish-market",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Mms Google Customer Solutions Mena Arabic English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/110712258954175174-account-strategist-mms-google-customer-solutions-mena-arabic-english",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Google Customer Solutions German Market English German",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/87511429736735430-accelerated-growth-consultant-google-customer-solutions-german-market-english-german",
           "updated": null
         }
       ]

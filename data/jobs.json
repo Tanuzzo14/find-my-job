@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:23:44.509Z",
+  "generated_at": "2026-08-15T06:36:19.313Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -15,13 +15,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/90693674085556934-account-strategist-midmarket-sales-google-customer-solutions-german-market",
-          "updated": null
-        },
-        {
-          "title": "Technical Solutions Consultant Apps And Gaming",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/73013721458188998-technical-solutions-consultant-apps-and-gaming",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Google Customer Solutions German Market English German",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/87511429736735430-accelerated-growth-consultant-google-customer-solutions-german-market-english-german",
           "updated": null
         }
       ]

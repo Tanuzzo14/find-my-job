@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T06:54:11.938Z",
+  "generated_at": "2026-08-18T06:41:03.829Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -15,6 +15,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/90693674085556934-account-strategist-midmarket-sales-google-customer-solutions-german-market",
+          "updated": null
+        },
+        {
+          "title": "Account Manager Large Customer Sales France English French",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/82240966383018694-account-manager-large-customer-sales-france-english-french",
           "updated": null
         },
         {
@@ -102,17 +109,17 @@
           "updated": null
         },
         {
-          "title": "Global Business Solutions Crossborder Operations Consultant",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/112704791993295558-global-business-solutions-crossborder-operations-consultant",
-          "updated": null
-        },
-        {
           "title": "Customer Growth Associate Early Careers Google Customer Solutions Dutch Market",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/141416670546535110-customer-growth-associate-early-careers-google-customer-solutions-dutch-market",
+          "updated": null
+        },
+        {
+          "title": "Product Support Manager Gup Play Emea",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/143494209410605766-product-support-manager-gup-play-emea",
           "updated": null
         },
         {
@@ -141,13 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
-          "updated": null
-        },
-        {
-          "title": "Accelerated Growth Consultant Google Customer Solutions German Market English German",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/87511429736735430-accelerated-growth-consultant-google-customer-solutions-german-market-english-german",
           "updated": null
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:41:03.829Z",
+  "generated_at": "2026-08-19T06:41:40.777Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -29,6 +29,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/84201955571704518-account-strategist-smb-sales-google-customer-solutions-belgian-market-dutch-english",
+          "updated": null
+        },
+        {
+          "title": "Systems Development Engineer Edge Infrastructure Operations",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/121343637135991494-systems-development-engineer-edge-infrastructure-operations",
           "updated": null
         },
         {
@@ -116,17 +123,17 @@
           "updated": null
         },
         {
-          "title": "Product Support Manager Gup Play Emea",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/143494209410605766-product-support-manager-gup-play-emea",
-          "updated": null
-        },
-        {
           "title": "Account Manager Customer Onboarding Gcs Kickstart English Hebrew",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/122151005625164486-account-manager-customer-onboarding-gcs-kickstart-english-hebrew",
+          "updated": null
+        },
+        {
+          "title": "Product Support Manager Gup Play Emea",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/143494209410605766-product-support-manager-gup-play-emea",
           "updated": null
         },
         {
@@ -141,13 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/78268229008401094-account-strategist-smb-sales-google-customer-solutions-uki-market",
-          "updated": null
-        },
-        {
-          "title": "Accelerated Growth Consultant Google Customer Solution English Dutch",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
           "updated": null
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:41:40.777Z",
+  "generated_at": "2026-08-20T06:43:51.032Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -10,6 +10,13 @@
       "ok": true,
       "count": 20,
       "jobs": [
+        {
+          "title": "Customer Growth Associate Sbs Scaled Google Customer Solutions Early Careers English Polish",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/137488762799039174-customer-growth-associate-sbs-scaled-google-customer-solutions-early-careers-english-polish",
+          "updated": null
+        },
         {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions German Market",
           "location": null,
@@ -85,13 +92,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/123036588690023110-accelerated-growth-consultant-google-customer-solutions-swedish-market",
-          "updated": null
-        },
-        {
-          "title": "Account Executive New Business Sales French English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/100058887855448774-account-executive-new-business-sales-french-english",
           "updated": null
         },
         {

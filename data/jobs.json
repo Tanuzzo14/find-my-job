@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:44:17.155Z",
+  "generated_at": "2026-08-22T06:09:29.419Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -57,6 +57,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/100099221356454598-account-manager-large-customer-sales-digital-first-english-german",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Sales French English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/76247090413347526-account-executive-new-business-sales-french-english",
           "updated": null
         },
         {
@@ -141,13 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/78268229008401094-account-strategist-smb-sales-google-customer-solutions-uki-market",
-          "updated": null
-        },
-        {
-          "title": "Accelerated Growth Consultant Google Customer Solution English Dutch",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/114024480824533702-accelerated-growth-consultant-google-customer-solution-english-dutch",
           "updated": null
         }
       ]

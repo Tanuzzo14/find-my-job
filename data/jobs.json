@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:11:56.564Z",
+  "generated_at": "2026-08-26T06:12:56.136Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -15,6 +15,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/137488762799039174-customer-growth-associate-sbs-scaled-google-customer-solutions-early-careers-english-polish",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Dach Market German English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/111076028188631750-account-strategist-sbs-engage-google-customer-solutions-dach-market-german-english",
           "updated": null
         },
         {
@@ -60,6 +67,13 @@
           "updated": null
         },
         {
+          "title": "Video Solutions Expert Gtech Ads Solutions Spanish English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/92104229929263814-video-solutions-expert-gtech-ads-solutions-spanish-english",
+          "updated": null
+        },
+        {
           "title": "Account Executive New Business Sales French English",
           "location": null,
           "department": null,
@@ -92,13 +106,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/123036588690023110-accelerated-growth-consultant-google-customer-solutions-swedish-market",
-          "updated": null
-        },
-        {
-          "title": "International Growth Consultant Market Iberia",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/80127209502581446-international-growth-consultant-market-iberia",
           "updated": null
         },
         {
@@ -141,13 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/143494209410605766-product-support-manager-gup-play-emea",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Smb Sales Google Customer Solutions Uki Market",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/78268229008401094-account-strategist-smb-sales-google-customer-solutions-uki-market",
           "updated": null
         }
       ]

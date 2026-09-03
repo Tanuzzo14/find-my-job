@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T06:25:37.211Z",
+  "generated_at": "2026-09-03T06:20:42.673Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -22,6 +22,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/111076028188631750-account-strategist-sbs-engage-google-customer-solutions-dach-market-german-english",
+          "updated": null
+        },
+        {
+          "title": "International Growth Consultant Appdev English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/78408436068295366-international-growth-consultant-appdev-english",
           "updated": null
         },
         {
@@ -67,13 +74,6 @@
           "updated": null
         },
         {
-          "title": "Account Executive New Business Sales French English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/76247090413347526-account-executive-new-business-sales-french-english",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Midmarket Sales Gcs Belgian Market English French Dutch",
           "location": null,
           "department": null,
@@ -85,6 +85,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/123036588690023110-accelerated-growth-consultant-google-customer-solutions-swedish-market",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Market Baltics",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/93614097764885190-account-strategist-sbs-engage-google-customer-solutions-market-baltics",
           "updated": null
         },
         {
@@ -123,6 +130,13 @@
           "updated": null
         },
         {
+          "title": "Account Strategist Engage Gcs Germany German English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/78591264236151494-account-strategist-engage-gcs-germany-german-english",
+          "updated": null
+        },
+        {
           "title": "Technical Solutions Consultant Apps And Gaming",
           "location": null,
           "department": null,
@@ -134,20 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/101890433172284102-global-business-solutions-crossborder-operations-consultant",
-          "updated": null
-        },
-        {
-          "title": "Smb Account Manager Gemini Enterprise And Google Workspace Italy",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/134267277481517766-smb-account-manager-gemini-enterprise-and-google-workspace-italy",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Smb Sales Google Customer Solutions Swiss And Austrian Market German English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/141693956688618182-account-strategist-smb-sales-google-customer-solutions-swiss-and-austrian-market-german-english",
           "updated": null
         }
       ]

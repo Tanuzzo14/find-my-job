@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T06:20:11.685Z",
+  "generated_at": "2026-09-05T06:18:14.050Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -53,20 +53,6 @@
           "updated": null
         },
         {
-          "title": "Account Executive Emea Apps New Business English Hebrew",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/87365371857642182-account-executive-emea-apps-new-business-english-hebrew",
-          "updated": null
-        },
-        {
-          "title": "Account Manager Large Customer Sales Digital First English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/100099221356454598-account-manager-large-customer-sales-digital-first-english",
-          "updated": null
-        },
-        {
           "title": "Video Solutions Expert Gtech Ads Solutions Spanish English",
           "location": null,
           "department": null,
@@ -92,6 +78,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/93614097764885190-account-strategist-sbs-engage-google-customer-solutions-market-baltics",
+          "updated": null
+        },
+        {
+          "title": "Account Executive Uki New Business English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/113962725100397254-account-executive-uki-new-business-english",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/101890433172284102-global-business-solutions-crossborder-operations-consultant",
+          "updated": null
+        },
+        {
+          "title": "Smb Account Manager Gemini Enterprise And Google Workspace Italy",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/134267277481517766-smb-account-manager-gemini-enterprise-and-google-workspace-italy",
           "updated": null
         }
       ]

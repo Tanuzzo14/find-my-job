@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:26:25.274Z",
+  "generated_at": "2026-09-08T06:20:24.803Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -11,17 +11,17 @@
       "count": 20,
       "jobs": [
         {
+          "title": "Account Strategist Smb Engage Google Customer Solutions Dach Market German English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/111076028188631750-account-strategist-smb-engage-google-customer-solutions-dach-market-german-english",
+          "updated": null
+        },
+        {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions Finnish Market",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/126554409571099334-account-strategist-midmarket-sales-google-customer-solutions-finnish-market",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Dach Market German English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/111076028188631750-account-strategist-sbs-engage-google-customer-solutions-dach-market-german-english",
           "updated": null
         },
         {
@@ -46,6 +46,13 @@
           "updated": null
         },
         {
+          "title": "Growth Manager App Sales English Ukranianrussian",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/87444183970652870-growth-manager-app-sales-english-ukranianrussian",
+          "updated": null
+        },
+        {
           "title": "Systems Development Engineer Edge Infrastructure Operations",
           "location": null,
           "department": null,
@@ -57,13 +64,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/92104229929263814-video-solutions-expert-gtech-ads-solutions-spanish-english",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Midmarket Sales Gcs Belgian Market English French Dutch",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/97852002662261446-account-strategist-midmarket-sales-gcs-belgian-market-english-french-dutch",
           "updated": null
         },
         {
@@ -92,13 +92,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/110794514557215430-mobile-apps-consultant-apps-and-gaming-global-partnerships",
-          "updated": null
-        },
-        {
-          "title": "Customer Growth Associate Early Careers Google Customer Solutions Dutch Market",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/141416670546535110-customer-growth-associate-early-careers-google-customer-solutions-dutch-market",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/134267277481517766-smb-account-manager-gemini-enterprise-and-google-workspace-italy",
+          "updated": null
+        },
+        {
+          "title": "Account Manager Google Shopping Solutions Early Careers German",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/83723304451351238-account-manager-google-shopping-solutions-early-careers-german",
           "updated": null
         }
       ]

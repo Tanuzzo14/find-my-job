@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T06:19:57.745Z",
+  "generated_at": "2026-09-12T06:17:58.311Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -10,13 +10,6 @@
       "ok": true,
       "count": 20,
       "jobs": [
-        {
-          "title": "Account Strategist Smb Engage Google Customer Solutions Dach Market German English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/111076028188631750-account-strategist-smb-engage-google-customer-solutions-dach-market-german-english",
-          "updated": null
-        },
         {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions Finnish Market",
           "location": null,
@@ -102,13 +95,6 @@
           "updated": null
         },
         {
-          "title": "Mobile Apps Consultant Apps And Gaming Global Partnerships",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/110794514557215430-mobile-apps-consultant-apps-and-gaming-global-partnerships",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Sbs Engage Google Customer Solutions Portugal Portuguese English",
           "location": null,
           "department": null,
@@ -148,6 +134,20 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/101890433172284102-global-business-solutions-crossborder-operations-consultant",
+          "updated": null
+        },
+        {
+          "title": "Smb Account Manager Gemini Enterprise And Google Workspace Italy",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/134267277481517766-smb-account-manager-gemini-enterprise-and-google-workspace-italy",
+          "updated": null
+        },
+        {
+          "title": "Account Executive Affiliates And Publishers New Business Sales Uki English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/125148258753225414-account-executive-affiliates-and-publishers-new-business-sales-uki-english",
           "updated": null
         }
       ]

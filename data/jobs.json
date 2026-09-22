@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:27:23.855Z",
+  "generated_at": "2026-09-22T06:20:45.421Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -15,13 +15,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/126554409571099334-account-strategist-midmarket-sales-google-customer-solutions-finnish-market",
-          "updated": null
-        },
-        {
-          "title": "Systems Development Engineer Edge Infrastructure Operations",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/78461517569106630-systems-development-engineer-edge-infrastructure-operations",
           "updated": null
         },
         {
@@ -102,6 +95,13 @@
           "updated": null
         },
         {
+          "title": "Associate International Growth Consultant Emea English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/101953170833318598-associate-international-growth-consultant-emea-english",
+          "updated": null
+        },
+        {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions English Lithuanian",
           "location": null,
           "department": null,
@@ -144,10 +144,10 @@
           "updated": null
         },
         {
-          "title": "Account Manager Google Shopping Solutions Early Careers German",
+          "title": "Account Manager Large Customer Sales German Market English",
           "location": null,
           "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/83723304451351238-account-manager-google-shopping-solutions-early-careers-german",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/127720089465037510-account-manager-large-customer-sales-german-market-english",
           "updated": null
         }
       ]

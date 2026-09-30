@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:21:56.281Z",
+  "generated_at": "2026-09-30T06:22:01.753Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -10,6 +10,13 @@
       "ok": true,
       "count": 20,
       "jobs": [
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Market Sub Saharan Africa English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/96386656994501318-account-strategist-sbs-engage-google-customer-solutions-market-sub-saharan-africa-english",
+          "updated": null
+        },
         {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions Finnish Market",
           "location": null,
@@ -29,6 +36,20 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/78408436068295366-international-growth-consultant-appdev-english",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Smb Sales Google Customer Solutions Norwegian Market",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/108224755093381830-account-strategist-smb-sales-google-customer-solutions-norwegian-market",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Midmarket Sales Google Customer Solutions Mena English Arabic",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/142821919253504710-account-strategist-midmarket-sales-google-customer-solutions-mena-english-arabic",
           "updated": null
         },
         {
@@ -81,13 +102,6 @@
           "updated": null
         },
         {
-          "title": "Customer Growth Associate Google Customer Solutions Dutch Market English Dutch",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/93530898879652550-customer-growth-associate-google-customer-solutions-dutch-market-english-dutch",
-          "updated": null
-        },
-        {
           "title": "Accelerated Growth Consultant Google Customer Solutions Swedish Market",
           "location": null,
           "department": null,
@@ -95,10 +109,24 @@
           "updated": null
         },
         {
+          "title": "Customer Growth Associate Google Customer Solutions Dutch Market English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/93530898879652550-customer-growth-associate-google-customer-solutions-dutch-market-english-dutch",
+          "updated": null
+        },
+        {
           "title": "Account Strategist Sbs Engage Google Customer Solutions Market Baltics",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/93614097764885190-account-strategist-sbs-engage-google-customer-solutions-market-baltics",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Google Customer Solutions Belgian Market English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/88868471361675974-accelerated-growth-consultant-google-customer-solutions-belgian-market-english-dutch",
           "updated": null
         },
         {
@@ -120,34 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/136067834072441542-account-strategist-sbs-engage-google-customer-solutions-italy-italian-english",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Midmarket Sales Google Customer Solutions Spain Market English Spanish",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/123803752527209158-account-strategist-midmarket-sales-google-customer-solutions-spain-market-english-spanish",
-          "updated": null
-        },
-        {
-          "title": "Associate International Growth Consultant Emea English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/101953170833318598-associate-international-growth-consultant-emea-english",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Spain Spanish English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/100603430115910342-account-strategist-sbs-engage-google-customer-solutions-spain-spanish-english",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Midmarket Sales Google Customer Solutions English Lithuanian",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/125814127934218950-account-strategist-midmarket-sales-google-customer-solutions-english-lithuanian",
           "updated": null
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:19:55.782Z",
+  "generated_at": "2026-10-23T06:20:18.125Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -43,13 +43,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/108224755093381830-account-strategist-smb-sales-google-customer-solutions-norwegian-market",
-          "updated": null
-        },
-        {
-          "title": "Collections Associate Cash And Ar Management French",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/106424895360901830-collections-associate-cash-and-ar-management-french",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/73981599317664454-account-strategist-smb-engage-google-customer-solutions-dach-market-german-english",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Midmarket Sales Google Customer Solutions Ukrainian Market",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/72254953745195718-account-strategist-midmarket-sales-google-customer-solutions-ukrainian-market",
           "updated": null
         }
       ]

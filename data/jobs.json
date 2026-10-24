@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T06:20:18.125Z",
+  "generated_at": "2026-10-24T06:18:34.238Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -10,20 +10,6 @@
       "ok": true,
       "count": 20,
       "jobs": [
-        {
-          "title": "Account Strategist Midmarket Sales Google Customer Solutions Finnish Market",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/126554409571099334-account-strategist-midmarket-sales-google-customer-solutions-finnish-market",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Market Sub Saharan Africa English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/96386656994501318-account-strategist-sbs-engage-google-customer-solutions-market-sub-saharan-africa-english",
-          "updated": null
-        },
         {
           "title": "Account Strategist Midmarket Sales Google Customer Solutions German Market",
           "location": null,
@@ -74,13 +60,6 @@
           "updated": null
         },
         {
-          "title": "International Growth Consultant Google Customer Solutions English German",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/78352803356910278-international-growth-consultant-google-customer-solutions-english-german",
-          "updated": null
-        },
-        {
           "title": "Strategic Partner Manager Apps And Gaming English Frenchspanish",
           "location": null,
           "department": null,
@@ -116,13 +95,6 @@
           "updated": null
         },
         {
-          "title": "Account Manager Google Shopping Solutions German English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/81739830672663238-account-manager-google-shopping-solutions-german-english",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Mid Market Sales Google Customer Solutions English Czechslovak",
           "location": null,
           "department": null,
@@ -148,6 +120,34 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/72254953745195718-account-strategist-midmarket-sales-google-customer-solutions-ukrainian-market",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Sales Northern Europe Multiple Languages",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/104679038399718086-account-executive-new-business-sales-northern-europe-multiple-languages",
+          "updated": null
+        },
+        {
+          "title": "Customer Growth Associate Google Customer Solutions Dutch Market English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/93530898879652550-customer-growth-associate-google-customer-solutions-dutch-market-english-dutch",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Central And Eastern Europe Ukraine English Ukrainian",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/101871697451197126-account-strategist-sbs-engage-google-customer-solutions-central-and-eastern-europe-ukraine-english-ukrainian",
+          "updated": null
+        },
+        {
+          "title": "Accelerated Growth Consultant Google Customer Solutions Belgian Market English Dutch",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/88868471361675974-accelerated-growth-consultant-google-customer-solutions-belgian-market-english-dutch",
           "updated": null
         }
       ]

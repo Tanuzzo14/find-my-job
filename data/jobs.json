@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:15:16.674Z",
+  "generated_at": "2026-10-31T06:11:29.560Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -64,6 +64,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/96018198192628422-strategic-partner-manager-apps-and-gaming-english-frenchspanish",
+          "updated": null
+        },
+        {
+          "title": "Customer Growth Associate Sbs Scaled Google Customer Solutions French English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/116699252507189958-customer-growth-associate-sbs-scaled-google-customer-solutions-french-english",
           "updated": null
         },
         {
@@ -141,13 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/101871697451197126-account-strategist-sbs-engage-google-customer-solutions-central-and-eastern-europe-ukraine-english-ukrainian",
-          "updated": null
-        },
-        {
-          "title": "Accelerated Growth Consultant Google Customer Solutions Belgian Market English Dutch",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/88868471361675974-accelerated-growth-consultant-google-customer-solutions-belgian-market-english-dutch",
           "updated": null
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T06:17:35.075Z",
+  "generated_at": "2026-11-03T06:12:58.503Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -29,6 +29,20 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/108224755093381830-account-strategist-smb-sales-google-customer-solutions-norwegian-market",
+          "updated": null
+        },
+        {
+          "title": "Account Manager Large Customer Sales German Market English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/79505827861275334-account-manager-large-customer-sales-german-market-english",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Midmarket Sales Google Customer Solutions English Lithuanian",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/128950865762362054-account-strategist-midmarket-sales-google-customer-solutions-english-lithuanian",
           "updated": null
         },
         {
@@ -134,20 +148,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/93530898879652550-customer-growth-associate-google-customer-solutions-dutch-market-english-dutch",
-          "updated": null
-        },
-        {
-          "title": "Account Executive New Business Sales Northern Europe Multiple Languages",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/104679038399718086-account-executive-new-business-sales-northern-europe-multiple-languages",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Central And Eastern Europe Ukraine English Ukrainian",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/101871697451197126-account-strategist-sbs-engage-google-customer-solutions-central-and-eastern-europe-ukraine-english-ukrainian",
           "updated": null
         }
       ]

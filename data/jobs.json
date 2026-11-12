@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:12:51.604Z",
+  "generated_at": "2026-11-12T06:13:13.225Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -46,13 +46,6 @@
           "updated": null
         },
         {
-          "title": "Account Strategist Midmarket Sales Google Customer Solutions Mena English Arabic",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/142821919253504710-account-strategist-midmarket-sales-google-customer-solutions-mena-english-arabic",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Sbs Engage Google Customer Solutions Cee Greek English",
           "location": null,
           "department": null,
@@ -60,17 +53,17 @@
           "updated": null
         },
         {
-          "title": "Account Strategist Smb Sales Google Customer Solutions Belgian Market French English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/75523826242200262-account-strategist-smb-sales-google-customer-solutions-belgian-market-french-english",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Smb Sales Google Customer Solutions Dutch Market",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/89081098012631750-account-strategist-smb-sales-google-customer-solutions-dutch-market",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Smb Sales Google Customer Solutions Belgian Market French English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/75523826242200262-account-strategist-smb-sales-google-customer-solutions-belgian-market-french-english",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/93530898879652550-customer-growth-associate-google-customer-solutions-dutch-market-english-dutch",
+          "updated": null
+        },
+        {
+          "title": "Account Executive New Business Sales Northern Europe Multiple Languages",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/104679038399718086-account-executive-new-business-sales-northern-europe-multiple-languages",
           "updated": null
         }
       ]

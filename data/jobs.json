@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T06:12:52.818Z",
+  "generated_at": "2026-11-14T06:11:39.533Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -57,13 +57,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/75523826242200262-account-strategist-smb-sales-google-customer-solutions-belgian-market-french-english",
-          "updated": null
-        },
-        {
-          "title": "Customer Growth Associate Sbs Scaled Google Customer Solutions French English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/116699252507189958-customer-growth-associate-sbs-scaled-google-customer-solutions-french-english",
           "updated": null
         },
         {
@@ -144,10 +137,17 @@
           "updated": null
         },
         {
-          "title": "Accelerated Growth Consultant Google Customer Solutions Belgian Market English Dutch",
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Mena Arabic English",
           "location": null,
           "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/88868471361675974-accelerated-growth-consultant-google-customer-solutions-belgian-market-english-dutch",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/73250183567024838-account-strategist-sbs-engage-google-customer-solutions-mena-arabic-english",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Sbs Engage Google Customer Solutions Market Baltics Lithuanian Latvian Or Estonian",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/94193653135614662-account-strategist-sbs-engage-google-customer-solutions-market-baltics-lithuanian-latvian-or-estonian",
           "updated": null
         }
       ]

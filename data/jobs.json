@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:20:04.219Z",
+  "generated_at": "2026-11-17T06:13:59.043Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -36,13 +36,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/79505827861275334-account-manager-large-customer-sales-german-market-english",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Cee Greek English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/86150581697028806-account-strategist-sbs-engage-google-customer-solutions-cee-greek-english",
           "updated": null
         },
         {
@@ -95,13 +88,6 @@
           "updated": null
         },
         {
-          "title": "Account Strategist Sbs Engage Google Customer Solutions Portugal Portuguese English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/118694208176300742-account-strategist-sbs-engage-google-customer-solutions-portugal-portuguese-english",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Mid Market Sales Google Customer Solutions English Czechslovak",
           "location": null,
           "department": null,
@@ -148,6 +134,20 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/94193653135614662-account-strategist-sbs-engage-google-customer-solutions-market-baltics-lithuanian-latvian-or-estonian",
+          "updated": null
+        },
+        {
+          "title": "Associate International Growth Consultant Emerging Markets Midmarket Sales Emea English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/126780626572321478-associate-international-growth-consultant-emerging-markets-midmarket-sales-emea-english",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Smb Sales Google Customer Solutions Belgian Market Dutch English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/92468150024446662-account-strategist-smb-sales-google-customer-solutions-belgian-market-dutch-english",
           "updated": null
         }
       ]

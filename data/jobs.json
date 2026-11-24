@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T06:18:37.641Z",
+  "generated_at": "2026-11-24T06:13:41.967Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -15,13 +15,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/90693674085556934-account-strategist-midmarket-sales-google-customer-solutions-german-market",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Small Business Services English Czechslovak",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/123750114828133062-account-strategist-small-business-services-english-czechslovak",
           "updated": null
         },
         {
@@ -50,6 +43,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/89081098012631750-account-strategist-smb-sales-google-customer-solutions-dutch-market",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Engage Gcs Dach Market English German",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/140871266172052166-account-strategist-engage-gcs-dach-market-english-german",
           "updated": null
         },
         {
@@ -137,17 +137,17 @@
           "updated": null
         },
         {
-          "title": "Account Strategist Smb Sales Google Customer Solutions Belgian Market Dutch English",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/92468150024446662-account-strategist-smb-sales-google-customer-solutions-belgian-market-dutch-english",
-          "updated": null
-        },
-        {
           "title": "Account Strategist Sbs Engage Google Customer Solutions Poland Polish English",
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/88660766743241414-account-strategist-sbs-engage-google-customer-solutions-poland-polish-english",
+          "updated": null
+        },
+        {
+          "title": "Account Strategist Midmarket Sales Google Customer Solutions German Market",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/111470739709665990-account-strategist-midmarket-sales-google-customer-solutions-german-market",
           "updated": null
         }
       ]

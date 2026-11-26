@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T06:14:13.712Z",
+  "generated_at": "2026-11-26T06:14:05.759Z",
   "sources": {
     "netflix": {
       "ok": true,
@@ -50,13 +50,6 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/140871266172052166-account-strategist-engage-gcs-dach-market-english-german",
-          "updated": null
-        },
-        {
-          "title": "Account Strategist Midmarket Sales Google Customer Solutions Danish Market",
-          "location": null,
-          "department": null,
-          "url": "https://www.google.com/about/careers/applications/jobs/results/134031197087900358-account-strategist-midmarket-sales-google-customer-solutions-danish-market",
           "updated": null
         },
         {
@@ -148,6 +141,13 @@
           "location": null,
           "department": null,
           "url": "https://www.google.com/about/careers/applications/jobs/results/98264069609267910-profitability-consultant-global-business-solutions-customer-experience-ux",
+          "updated": null
+        },
+        {
+          "title": "Associate International Growth Consultant English",
+          "location": null,
+          "department": null,
+          "url": "https://www.google.com/about/careers/applications/jobs/results/114390078372881094-associate-international-growth-consultant-english",
           "updated": null
         }
       ]
